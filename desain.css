@@ -1,0 +1,182 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #121212; /* hitam gelap */
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #e63946;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e63946;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #e63946;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.hero h1 span {
+  color: #e63946;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 60px 20px;
+  background: #1a1a1a;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #e63946;
+}
+
+.about img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 4px solid #333;
+}
+
+.about p {
+  font-size: 16px;
+  max-width: 600px;
+  margin: auto;
+  color: #ddd;
+}
+
+/* Projects Section */
+.projects {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #e63946;
+}
+
+.project-card {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: none;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.4);
+}
+
+.project-card img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.project-card p {
+  color: #ccc;
+}
+
+.project-card p a {
+  color: #e63946;
+  text-decoration: none;
+}
+
+.project-card p a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+  background: #1a1a1a;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #ddd;
+}
+
+.contact a {
+  color: #e63946;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background: #0d0d0d;
+  color: #aaa;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  border-top: 1px solid #333;
+}
